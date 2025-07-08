@@ -28,8 +28,9 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://rivirside.github.io",
   "baseUrl": "/aerospace-medicine-guide/",
+  "trailingSlash": true,
   "organizationName": "rivir",
   "projectName": "aerospace-medicine-guide",
   "onBrokenLinks": "throw",
