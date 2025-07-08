@@ -1,0 +1,27 @@
+{
+  "id": "training-education/building-your-cv-for-applications",
+  "title": "Building Your CV for Applications",
+  "description": "Crafting a compelling Curriculum Vitae (CV) is paramount when applying to aerospace medicine residency programs, fellowships, or even research opportunities. Your CV is your professional narrative, showcasing your qualifications, experiences, and dedication to the field. For a specialty as unique and competitive as aerospace medicine, it's crucial to highlight experiences that demonstrate your interest and aptitude for this interdisciplinary domain.",
+  "source": "@site/docs/training-education/building-your-cv-for-applications.md",
+  "sourceDirName": "training-education",
+  "slug": "/training-education/building-your-cv-for-applications",
+  "permalink": "/aerospace-medicine-guide/docs/training-education/building-your-cv-for-applications",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/training-education/building-your-cv-for-applications.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Essential Certifications & Skills",
+    "permalink": "/aerospace-medicine-guide/docs/training-education/essential-certifications-skills"
+  },
+  "next": {
+    "title": "Finding Research Opportunities",
+    "permalink": "/aerospace-medicine-guide/docs/research/finding-research-opportunities"
+  }
+}

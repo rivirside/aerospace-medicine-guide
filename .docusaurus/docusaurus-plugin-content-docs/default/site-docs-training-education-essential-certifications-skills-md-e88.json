@@ -1,0 +1,27 @@
+{
+  "id": "training-education/essential-certifications-skills",
+  "title": "Essential Certifications & Skills",
+  "description": "Beyond formal residency and fellowship training, certain certifications and skills can significantly enhance a medical student's profile and future career in aerospace medicine. These additional qualifications demonstrate a commitment to the field, provide practical experience in related disciplines, and equip aspiring aerospace medical professionals with a broader and more versatile skill set.",
+  "source": "@site/docs/training-education/essential-certifications-skills.md",
+  "sourceDirName": "training-education",
+  "slug": "/training-education/essential-certifications-skills",
+  "permalink": "/aerospace-medicine-guide/docs/training-education/essential-certifications-skills",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/training-education/essential-certifications-skills.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Civilian Training Pathways",
+    "permalink": "/aerospace-medicine-guide/docs/training-education/civilian-training-pathways"
+  },
+  "next": {
+    "title": "Building Your CV for Applications",
+    "permalink": "/aerospace-medicine-guide/docs/training-education/building-your-cv-for-applications"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "getting-started/how-to-get-involved-as-a-med-student",
+  "title": "How to Get Involved as a Med Student",
+  "description": "For medical students eager to explore and engage with aerospace medicine, there are numerous avenues to gain experience, build a network, and deepen your understanding of the field. Early involvement can significantly enhance your application to residency programs and provide invaluable insights into this unique specialty.",
+  "source": "@site/docs/getting-started/how-to-get-involved-as-a-med-student.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/how-to-get-involved-as-a-med-student",
+  "permalink": "/aerospace-medicine-guide/docs/getting-started/how-to-get-involved-as-a-med-student",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/getting-started/how-to-get-involved-as-a-med-student.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Is This Career For Me?",
+    "permalink": "/aerospace-medicine-guide/docs/getting-started/is-this-career-for-me"
+  },
+  "next": {
+    "title": "Overview: Military vs. Civilian Careers",
+    "permalink": "/aerospace-medicine-guide/docs/career-paths/overview-military-vs-civilian"
+  }
+}

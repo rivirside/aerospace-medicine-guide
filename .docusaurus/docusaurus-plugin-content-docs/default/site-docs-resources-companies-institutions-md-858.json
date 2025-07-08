@@ -1,0 +1,27 @@
+{
+  "id": "resources/companies-institutions",
+  "title": "Directory: Companies & Institutions",
+  "description": "This section provides a curated list of key players in the aerospace industry and prominent academic institutions that offer significant opportunities for medical professionals interested in aerospace medicine. These entities are at the forefront of human spaceflight, aviation safety, and medical research, offering diverse career paths from clinical roles to research and development.",
+  "source": "@site/docs/resources/companies-institutions.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/companies-institutions",
+  "permalink": "/aerospace-medicine-guide/docs/resources/companies-institutions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/resources/companies-institutions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scholarships & Funding",
+    "permalink": "/aerospace-medicine-guide/docs/resources/scholarships-funding"
+  },
+  "next": {
+    "title": "Recommended Reading",
+    "permalink": "/aerospace-medicine-guide/docs/resources/recommended-reading"
+  }
+}

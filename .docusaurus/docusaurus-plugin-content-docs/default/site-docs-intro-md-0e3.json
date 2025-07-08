@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Welcome to Aerospace Medicine Hub!",
+  "description": "Your Future in the Final Frontier Starts Here.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/aerospace-medicine-guide/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Introduction to Aerospace Medicine",
+    "permalink": "/aerospace-medicine-guide/docs/getting-started/introduction-to-aerospace-medicine"
+  }
+}

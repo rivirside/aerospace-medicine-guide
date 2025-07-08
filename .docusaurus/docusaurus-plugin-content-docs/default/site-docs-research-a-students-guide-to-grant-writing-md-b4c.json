@@ -1,0 +1,27 @@
+{
+  "id": "research/a-students-guide-to-grant-writing",
+  "title": "A Student's Guide to Grant Writing",
+  "description": "Securing funding for research is a critical skill for any aspiring medical professional, and aerospace medicine is no exception. For medical students, understanding the basics of grant writing can open doors to valuable research opportunities, help fund projects, and demonstrate a commitment to scientific inquiry. While comprehensive grant writing is a complex art, this guide provides a foundational overview to help you get started.",
+  "source": "@site/docs/research/a-students-guide-to-grant-writing.md",
+  "sourceDirName": "research",
+  "slug": "/research/a-students-guide-to-grant-writing",
+  "permalink": "/aerospace-medicine-guide/docs/research/a-students-guide-to-grant-writing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/research/a-students-guide-to-grant-writing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hot Topics in Aerospace Research",
+    "permalink": "/aerospace-medicine-guide/docs/research/hot-topics-in-aerospace-research"
+  },
+  "next": {
+    "title": "Organizations & Societies",
+    "permalink": "/aerospace-medicine-guide/docs/resources/organizations-societies"
+  }
+}

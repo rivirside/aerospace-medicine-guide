@@ -1,0 +1,27 @@
+{
+  "id": "research/finding-research-opportunities",
+  "title": "Finding Research Opportunities",
+  "description": "Engaging in research is a cornerstone of a successful career in aerospace medicine, offering invaluable experience, networking opportunities, and a chance to contribute to the advancement of the field. For medical students, finding the right research opportunity can seem daunting, but with a strategic approach, you can identify projects that align with your interests and enhance your application to residency programs.",
+  "source": "@site/docs/research/finding-research-opportunities.md",
+  "sourceDirName": "research",
+  "slug": "/research/finding-research-opportunities",
+  "permalink": "/aerospace-medicine-guide/docs/research/finding-research-opportunities",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/research/finding-research-opportunities.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building Your CV for Applications",
+    "permalink": "/aerospace-medicine-guide/docs/training-education/building-your-cv-for-applications"
+  },
+  "next": {
+    "title": "Key Research Institutions",
+    "permalink": "/aerospace-medicine-guide/docs/research/key-research-institutions"
+  }
+}

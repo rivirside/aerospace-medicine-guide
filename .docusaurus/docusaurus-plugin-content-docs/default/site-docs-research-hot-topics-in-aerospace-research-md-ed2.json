@@ -1,0 +1,27 @@
+{
+  "id": "research/hot-topics-in-aerospace-research",
+  "title": "Hot Topics in Aerospace Research",
+  "description": "Aerospace medicine is a rapidly evolving field, driven by advancements in space exploration, aviation technology, and our understanding of human physiology in extreme environments. For medical students interested in research, identifying current \"hot topics\" can help in selecting impactful projects, understanding future challenges, and aligning with the priorities of leading research institutions. Here are some of the most compelling and active areas of research in aerospace medicine:",
+  "source": "@site/docs/research/hot-topics-in-aerospace-research.md",
+  "sourceDirName": "research",
+  "slug": "/research/hot-topics-in-aerospace-research",
+  "permalink": "/aerospace-medicine-guide/docs/research/hot-topics-in-aerospace-research",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/research/hot-topics-in-aerospace-research.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Key Research Institutions",
+    "permalink": "/aerospace-medicine-guide/docs/research/key-research-institutions"
+  },
+  "next": {
+    "title": "A Student's Guide to Grant Writing",
+    "permalink": "/aerospace-medicine-guide/docs/research/a-students-guide-to-grant-writing"
+  }
+}

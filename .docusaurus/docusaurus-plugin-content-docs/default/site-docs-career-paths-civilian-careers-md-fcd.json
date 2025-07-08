@@ -1,0 +1,27 @@
+{
+  "id": "career-paths/civilian-careers",
+  "title": "Civilian Careers in Aerospace Medicine",
+  "description": "Beyond the structured environment of military service, civilian aerospace medicine offers a vast and diverse landscape of career opportunities for physicians. These roles span government agencies, academic institutions, private industry, and research organizations, each contributing to the health and safety of individuals involved in aviation and space activities. Civilian aerospace medical professionals often focus on clinical practice, regulatory oversight, research, and the development of medical standards for a broad spectrum of aerospace endeavors.",
+  "source": "@site/docs/career-paths/civilian-careers.md",
+  "sourceDirName": "career-paths",
+  "slug": "/career-paths/civilian-careers",
+  "permalink": "/aerospace-medicine-guide/docs/career-paths/civilian-careers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/career-paths/civilian-careers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Military Careers in Aerospace Medicine",
+    "permalink": "/aerospace-medicine-guide/docs/career-paths/military-careers"
+  },
+  "next": {
+    "title": "The Astronaut Pathway",
+    "permalink": "/aerospace-medicine-guide/docs/career-paths/the-astronaut-pathway"
+  }
+}

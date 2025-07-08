@@ -1,0 +1,27 @@
+{
+  "id": "training-education/civilian-training-pathways",
+  "title": "Civilian Training Pathways",
+  "description": "Civilian training pathways in aerospace medicine provide physicians with the specialized knowledge and skills to practice in non-military settings, including government agencies, academic institutions, private industry, and research organizations. These pathways typically involve accredited residency or fellowship programs that prepare graduates for diverse roles focused on clinical aerospace medicine, public health, research, and regulatory oversight.",
+  "source": "@site/docs/training-education/civilian-training-pathways.md",
+  "sourceDirName": "training-education",
+  "slug": "/training-education/civilian-training-pathways",
+  "permalink": "/aerospace-medicine-guide/docs/training-education/civilian-training-pathways",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/training-education/civilian-training-pathways.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Military Training Pathways",
+    "permalink": "/aerospace-medicine-guide/docs/training-education/military-training-pathways"
+  },
+  "next": {
+    "title": "Essential Certifications & Skills",
+    "permalink": "/aerospace-medicine-guide/docs/training-education/essential-certifications-skills"
+  }
+}
