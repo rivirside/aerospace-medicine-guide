@@ -104,7 +104,7 @@ const config = {
             items: [
               {
                 label: 'Guide', // Changed label
-                to: '/docs/intro', // Keeping this for now, will update sidebar later
+                to: '/docs/getting-started/introduction-to-aerospace-medicine',
               },
             ],
           },

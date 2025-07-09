@@ -100,7 +100,7 @@ export default {
           "items": [
             {
               "label": "Guide",
-              "to": "/docs/intro"
+              "to": "/docs/getting-started/introduction-to-aerospace-medicine"
             }
           ]
         },
