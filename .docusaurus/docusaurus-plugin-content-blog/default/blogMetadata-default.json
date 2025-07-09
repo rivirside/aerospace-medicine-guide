@@ -1,5 +1,5 @@
 {
-  "blogBasePath": "/aerospace-medicine-guide/blog",
+  "blogBasePath": "/blog",
   "blogTitle": "Blog",
-  "authorsListPath": "/aerospace-medicine-guide/blog/authors"
+  "authorsListPath": "/blog/authors"
 }

@@ -6,64 +6,62 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+const HomepageCards = [
+  {
+    title: 'Career Paths',
+    description: 'Explore the diverse job opportunities in Aerospace Medicine.',
+    link: '/docs/career-paths/overview-military-vs-civilian',
+  },
+  {
+    title: 'Training & Education',
+    description: 'Learn about residencies, fellowships, and essential skills.',
+    link: '/docs/training-education/residency-fellowship-overview',
+  },
+  {
+    title: 'Research Opportunities',
+    description: 'Discover hot topics and how to get involved in research.',
+    link: '/docs/research/finding-research-opportunities',
+  },
+  {
+    title: 'Resource Directory',
+    description: 'Find organizations, scholarships, and recommended reading.',
+    link: '/docs/resources/organizations-societies',
+  },
+];
+
+function HomepageCard({title, description, link}) {
+  return (
+    <div className={clsx('col col--3')}>
+      <div className="card">
+        <div className="card__header">
+          <h3>{title}</h3>
+        </div>
+        <div className="card__body">
+          <p>{description}</p>
+        </div>
+        <div className="card__footer">
+          <Link
+            className="button button--primary button--block"
+            to={link}>
+            Learn More
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
           Your Future in the Final Frontier Starts Here.
-        </p>
-        <p className={styles.heroDescription}>
-          This comprehensive resource was built by a second-year medical student at the University of Arizona College of Medicine - Phoenix, dedicated to guiding aspiring aerospace medical professionals.
-        </p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/getting-started/introduction-to-aerospace-medicine">
-            What is Aerospace Medicine?
-          </Link>
-        </div>
+        </Heading>
+        <p className="hero__subtitle">What is Aerospace Medicine?: A concise, exciting introduction to the field.</p>
       </div>
     </header>
-  );
-}
-
-function HomepageQuickLinks() {
-  return (
-    <section className={styles.quickLinks}>
-      <div className="container">
-        <div className="row">
-          <div className={clsx('col col--3', styles.quickLinkCard)}>
-            <Link to="/docs/career-paths/overview-military-vs-civilian">
-              <Heading as="h3">Career Paths</Heading>
-              <p>Explore diverse roles in military, civilian, and commercial aerospace.</p>
-            </Link>
-          </div>
-          <div className={clsx('col col--3', styles.quickLinkCard)}>
-            <Link to="/docs/training-education/residency-fellowship-overview">
-              <Heading as="h3">Training & Education</Heading>
-              <p>Navigate residency programs, fellowships, and essential certifications.</p>
-            </Link>
-          </div>
-          <div className={clsx('col col--3', styles.quickLinkCard)}>
-            <Link to="/docs/research/finding-research-opportunities">
-              <Heading as="h3">Research Opportunities</Heading>
-              <p>Discover key institutions, hot topics, and grant writing tips.</p>
-            </Link>
-          </div>
-          <div className={clsx('col col--3', styles.quickLinkCard)}>
-            <Link to="/docs/resources/organizations-societies">
-              <Heading as="h3">Resource Directory</Heading>
-              <p>Find organizations, funding, companies, and recommended reading.</p>
-            </Link>
-          </div>
-        </div>
-      </div>
-    </section>
   );
 }
 
@@ -72,10 +70,18 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="Your comprehensive resource for medical students interested in aerospace medicine.">
+      description="A comprehensive guide for medical students interested in Aerospace Medicine.">
       <HomepageHeader />
       <main>
-        <HomepageQuickLinks />
+        <section className={styles.features}>
+          <div className="container">
+            <div className="row">
+              {HomepageCards.map((props, idx) => (
+                <HomepageCard key={idx} {...props} />
+              ))}
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );

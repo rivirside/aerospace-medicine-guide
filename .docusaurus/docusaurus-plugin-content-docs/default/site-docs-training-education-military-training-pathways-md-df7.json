@@ -1,27 +1,26 @@
 {
   "id": "training-education/military-training-pathways",
   "title": "Military Training Pathways",
-  "description": "Military training pathways in aerospace medicine offer a distinct and highly structured route for physicians committed to serving in the armed forces. These programs are designed to cultivate flight surgeons who are not only clinically proficient but also deeply integrated into the operational aspects of military aviation and space. While the ultimate goal is similar across branches – to ensure the health and performance of aviators and space personnel – each service has its unique training philosophy, curriculum, and career progression.",
+  "description": "Serving in Uniform: Military Aerospace Medicine Training",
   "source": "@site/docs/training-education/military-training-pathways.md",
   "sourceDirName": "training-education",
   "slug": "/training-education/military-training-pathways",
-  "permalink": "/aerospace-medicine-guide/docs/training-education/military-training-pathways",
+  "permalink": "/docs/training-education/military-training-pathways",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/training-education/military-training-pathways.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 2
+    "id": "military-training-pathways",
+    "title": "Military Training Pathways"
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "Residency & Fellowship Overview",
-    "permalink": "/aerospace-medicine-guide/docs/training-education/residency-fellowship-overview"
+    "permalink": "/docs/training-education/residency-fellowship-overview"
   },
   "next": {
     "title": "Civilian Training Pathways",
-    "permalink": "/aerospace-medicine-guide/docs/training-education/civilian-training-pathways"
+    "permalink": "/docs/training-education/civilian-training-pathways"
   }
 }

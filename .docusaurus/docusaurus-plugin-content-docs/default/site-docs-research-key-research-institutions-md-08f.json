@@ -1,27 +1,26 @@
 {
   "id": "research/key-research-institutions",
   "title": "Key Research Institutions",
-  "description": "For medical students and physicians interested in contributing to the scientific advancement of aerospace medicine, understanding the key research institutions in the field is paramount. These organizations are at the forefront of exploring the physiological and psychological effects of flight and space travel, developing countermeasures, and innovating solutions to ensure human health and performance in extreme environments. Engaging with these institutions, whether through research opportunities, collaborations, or simply following their work, can provide invaluable insights and career pathways.",
+  "description": "Where Innovation Takes Flight: Key Research Institutions in Aerospace Medicine",
   "source": "@site/docs/research/key-research-institutions.md",
   "sourceDirName": "research",
   "slug": "/research/key-research-institutions",
-  "permalink": "/aerospace-medicine-guide/docs/research/key-research-institutions",
+  "permalink": "/docs/research/key-research-institutions",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/research/key-research-institutions.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 2
+    "id": "key-research-institutions",
+    "title": "Key Research Institutions"
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "Finding Research Opportunities",
-    "permalink": "/aerospace-medicine-guide/docs/research/finding-research-opportunities"
+    "permalink": "/docs/research/finding-research-opportunities"
   },
   "next": {
     "title": "Hot Topics in Aerospace Research",
-    "permalink": "/aerospace-medicine-guide/docs/research/hot-topics-in-aerospace-research"
+    "permalink": "/docs/research/hot-topics-in-aerospace-research"
   }
 }

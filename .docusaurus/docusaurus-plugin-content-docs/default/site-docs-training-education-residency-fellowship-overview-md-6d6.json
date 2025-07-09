@@ -1,27 +1,26 @@
 {
   "id": "training-education/residency-fellowship-overview",
   "title": "Residency & Fellowship Overview",
-  "description": "For medical graduates aspiring to specialize in aerospace medicine, the primary pathways involve dedicated residency and fellowship programs. These structured training experiences are designed to equip physicians with the specialized knowledge, clinical skills, and research acumen necessary to practice aerospace medicine effectively. Understanding the different types of programs and their typical structures is crucial for navigating this unique medical specialty.",
+  "description": "Navigating Your Training: Residency and Fellowship Pathways in Aerospace Medicine",
   "source": "@site/docs/training-education/residency-fellowship-overview.md",
   "sourceDirName": "training-education",
   "slug": "/training-education/residency-fellowship-overview",
-  "permalink": "/aerospace-medicine-guide/docs/training-education/residency-fellowship-overview",
+  "permalink": "/docs/training-education/residency-fellowship-overview",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/training-education/residency-fellowship-overview.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "id": "residency-fellowship-overview",
+    "title": "Residency & Fellowship Overview"
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "The Astronaut Pathway",
-    "permalink": "/aerospace-medicine-guide/docs/career-paths/the-astronaut-pathway"
+    "permalink": "/docs/career-paths/the-astronaut-pathway"
   },
   "next": {
     "title": "Military Training Pathways",
-    "permalink": "/aerospace-medicine-guide/docs/training-education/military-training-pathways"
+    "permalink": "/docs/training-education/military-training-pathways"
   }
 }

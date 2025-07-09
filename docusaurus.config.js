@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Aerospace Medicine Docs',
-  tagline: 'A comprehensive resource for medical students interested in aerospace medicine.',
+  title: 'Aerospace Medicine Guide',
+  tagline: 'A comprehensive guide for medical students interested in Aerospace Medicine',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,18 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://rivirside.github.io',
-  // Set the directory where the built site will be placed
-  
+  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/aerospace-medicine-guide/',
-  trailingSlash: true,
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'rivir', // Your GitHub org/user name.
-  projectName: 'aerospace-medicine-guide', // Your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -53,10 +50,23 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/rivir/aerospace-medicine-guide/tree/main/',
+          editUrl: undefined, // Removed editUrl
         },
-        
+        blog: {
+          showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/', // Re-added default editUrl for blog
+          // Useful options to enforce blogging best practices
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -70,24 +80,20 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Aerospace Medicine Docs',
+        title: 'Aerospace Medicine Guide',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Aerospace Medicine Guide Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'defaultSidebar', // Changed sidebarId
             position: 'left',
-            label: 'Docs',
+            label: 'Guide', // Changed label
           },
-          
-          {
-            href: 'https://github.com/rivir/aerospace-medicine-guide',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: 'Blog', position: 'left'}, // Re-added blog link
+          // Removed GitHub link
         ],
       },
       footer: {
@@ -97,8 +103,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Guide', // Changed label
+                to: '/docs/intro', // Keeping this for now, will update sidebar later
               },
             ],
           },
@@ -122,15 +128,18 @@ const config = {
           {
             title: 'More',
             items: [
-              
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
               {
                 label: 'GitHub',
-                href: 'https://github.com/rivir/aerospace-medicine-guide',
+                href: 'https://github.com/facebook/docusaurus', // Keeping this for now
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Aerospace Medicine Docs. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Aerospace Medicine Guide. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

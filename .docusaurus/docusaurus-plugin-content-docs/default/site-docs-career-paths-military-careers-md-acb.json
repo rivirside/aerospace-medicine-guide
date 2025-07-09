@@ -1,27 +1,26 @@
 {
   "id": "career-paths/military-careers",
-  "title": "Military Careers in Aerospace Medicine",
-  "description": "For physicians drawn to a career that combines medical expertise with operational readiness and service to country, military aerospace medicine offers a compelling pathway. The primary role within this domain is that of the Flight Surgeon, a highly specialized medical officer integral to the health and safety of military aviators and their support personnel. While the core mission remains consistent across branches, the specific responsibilities and environments vary between the U.S. Air Force, Navy, and Army.",
+  "title": "Military Careers",
+  "description": "The Military Flight Surgeon: Guardians of the Sky",
   "source": "@site/docs/career-paths/military-careers.md",
   "sourceDirName": "career-paths",
   "slug": "/career-paths/military-careers",
-  "permalink": "/aerospace-medicine-guide/docs/career-paths/military-careers",
+  "permalink": "/docs/career-paths/military-careers",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/career-paths/military-careers.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 2
+    "id": "military-careers",
+    "title": "Military Careers"
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Overview: Military vs. Civilian Careers",
-    "permalink": "/aerospace-medicine-guide/docs/career-paths/overview-military-vs-civilian"
+    "title": "Overview: Military vs. Civilian",
+    "permalink": "/docs/career-paths/overview-military-vs-civilian"
   },
   "next": {
-    "title": "Civilian Careers in Aerospace Medicine",
-    "permalink": "/aerospace-medicine-guide/docs/career-paths/civilian-careers"
+    "title": "Civilian Careers",
+    "permalink": "/docs/career-paths/civilian-careers"
   }
 }

@@ -1,127 +1,122 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/aerospace-medicine-guide/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/aerospace-medicine-guide/docs",
-          "mainDocId": "intro",
+          "path": "/docs",
+          "mainDocId": "getting-started/introduction-to-aerospace-medicine",
           "docs": [
             {
               "id": "career-paths/civilian-careers",
-              "path": "/aerospace-medicine-guide/docs/career-paths/civilian-careers",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/career-paths/civilian-careers",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "career-paths/military-careers",
-              "path": "/aerospace-medicine-guide/docs/career-paths/military-careers",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/career-paths/military-careers",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "career-paths/overview-military-vs-civilian",
-              "path": "/aerospace-medicine-guide/docs/career-paths/overview-military-vs-civilian",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/career-paths/overview-military-vs-civilian",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "career-paths/the-astronaut-pathway",
-              "path": "/aerospace-medicine-guide/docs/career-paths/the-astronaut-pathway",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/career-paths/the-astronaut-pathway",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "getting-started/how-to-get-involved-as-a-med-student",
-              "path": "/aerospace-medicine-guide/docs/getting-started/how-to-get-involved-as-a-med-student",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/getting-started/how-to-get-involved-as-a-med-student",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "getting-started/introduction-to-aerospace-medicine",
-              "path": "/aerospace-medicine-guide/docs/getting-started/introduction-to-aerospace-medicine",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/getting-started/introduction-to-aerospace-medicine",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "getting-started/is-this-career-for-me",
-              "path": "/aerospace-medicine-guide/docs/getting-started/is-this-career-for-me",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "intro",
-              "path": "/aerospace-medicine-guide/docs/intro",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/getting-started/is-this-career-for-me",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "research/a-students-guide-to-grant-writing",
-              "path": "/aerospace-medicine-guide/docs/research/a-students-guide-to-grant-writing",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/research/a-students-guide-to-grant-writing",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "research/finding-research-opportunities",
-              "path": "/aerospace-medicine-guide/docs/research/finding-research-opportunities",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/research/finding-research-opportunities",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "research/hot-topics-in-aerospace-research",
-              "path": "/aerospace-medicine-guide/docs/research/hot-topics-in-aerospace-research",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/research/hot-topics-in-aerospace-research",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "research/key-research-institutions",
-              "path": "/aerospace-medicine-guide/docs/research/key-research-institutions",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/research/key-research-institutions",
+              "sidebar": "defaultSidebar"
             },
             {
-              "id": "resources/companies-institutions",
-              "path": "/aerospace-medicine-guide/docs/resources/companies-institutions",
-              "sidebar": "tutorialSidebar"
+              "id": "resources/directory-companies-institutions",
+              "path": "/docs/resources/directory-companies-institutions",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "resources/organizations-societies",
-              "path": "/aerospace-medicine-guide/docs/resources/organizations-societies",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/resources/organizations-societies",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "resources/recommended-reading",
-              "path": "/aerospace-medicine-guide/docs/resources/recommended-reading",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/resources/recommended-reading",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "resources/scholarships-funding",
-              "path": "/aerospace-medicine-guide/docs/resources/scholarships-funding",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/resources/scholarships-funding",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "training-education/building-your-cv-for-applications",
-              "path": "/aerospace-medicine-guide/docs/training-education/building-your-cv-for-applications",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/training-education/building-your-cv-for-applications",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "training-education/civilian-training-pathways",
-              "path": "/aerospace-medicine-guide/docs/training-education/civilian-training-pathways",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/training-education/civilian-training-pathways",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "training-education/essential-certifications-skills",
-              "path": "/aerospace-medicine-guide/docs/training-education/essential-certifications-skills",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/training-education/essential-certifications-skills",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "training-education/military-training-pathways",
-              "path": "/aerospace-medicine-guide/docs/training-education/military-training-pathways",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/training-education/military-training-pathways",
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "training-education/residency-fellowship-overview",
-              "path": "/aerospace-medicine-guide/docs/training-education/residency-fellowship-overview",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/training-education/residency-fellowship-overview",
+              "sidebar": "defaultSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "defaultSidebar": {
               "link": {
-                "path": "/aerospace-medicine-guide/docs/intro",
-                "label": "intro"
+                "path": "/docs/getting-started/introduction-to-aerospace-medicine",
+                "label": "getting-started/introduction-to-aerospace-medicine"
               }
             }
           }

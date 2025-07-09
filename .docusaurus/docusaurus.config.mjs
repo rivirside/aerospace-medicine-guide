@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Aerospace Medicine Docs",
-  "tagline": "A comprehensive resource for medical students interested in aerospace medicine.",
+  "title": "Aerospace Medicine Guide",
+  "tagline": "A comprehensive guide for medical students interested in Aerospace Medicine",
   "favicon": "img/favicon.ico",
   "future": {
     "v4": {
@@ -28,11 +28,10 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://rivirside.github.io",
-  "baseUrl": "/aerospace-medicine-guide/",
-  "trailingSlash": true,
-  "organizationName": "rivir",
-  "projectName": "aerospace-medicine-guide",
+  "url": "https://your-docusaurus-site.example.com",
+  "baseUrl": "/",
+  "organizationName": "facebook",
+  "projectName": "docusaurus",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -48,8 +47,21 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/"
+          "sidebarPath": "./sidebars.js"
+        },
+        "blog": {
+          "showReadingTime": true,
+          "feedOptions": {
+            "type": [
+              "rss",
+              "atom"
+            ],
+            "xslt": true
+          },
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "onInlineTags": "warn",
+          "onInlineAuthors": "warn",
+          "onUntruncatedBlogPosts": "warn"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -60,22 +72,22 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Aerospace Medicine Docs",
+      "title": "Aerospace Medicine Guide",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Aerospace Medicine Guide Logo",
         "src": "img/logo.svg"
       },
       "items": [
         {
           "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "sidebarId": "defaultSidebar",
           "position": "left",
-          "label": "Docs"
+          "label": "Guide"
         },
         {
-          "href": "https://github.com/rivir/aerospace-medicine-guide",
-          "label": "GitHub",
-          "position": "right"
+          "to": "/blog",
+          "label": "Blog",
+          "position": "left"
         }
       ],
       "hideOnScroll": false
@@ -87,7 +99,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Guide",
               "to": "/docs/intro"
             }
           ]
@@ -113,13 +125,17 @@ export default {
           "title": "More",
           "items": [
             {
+              "label": "Blog",
+              "to": "/blog"
+            },
+            {
               "label": "GitHub",
-              "href": "https://github.com/rivir/aerospace-medicine-guide"
+              "href": "https://github.com/facebook/docusaurus"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Aerospace Medicine Docs. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Aerospace Medicine Guide. Built with Docusaurus."
     },
     "prism": {
       "theme": {

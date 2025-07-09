@@ -1,27 +1,26 @@
 {
   "id": "resources/organizations-societies",
   "title": "Organizations & Societies",
-  "description": "Engaging with professional organizations and societies is crucial for medical students interested in aerospace medicine. These groups provide invaluable opportunities for networking, mentorship, education, and staying abreast of the latest advancements in the field. They often offer resources, scholarships, and platforms for presenting research, significantly enhancing a student's journey into aerospace medicine.",
+  "description": "Your Community in Aerospace Medicine: Key Organizations and Societies",
   "source": "@site/docs/resources/organizations-societies.md",
   "sourceDirName": "resources",
   "slug": "/resources/organizations-societies",
-  "permalink": "/aerospace-medicine-guide/docs/resources/organizations-societies",
+  "permalink": "/docs/resources/organizations-societies",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/resources/organizations-societies.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "id": "organizations-societies",
+    "title": "Organizations & Societies"
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "A Student's Guide to Grant Writing",
-    "permalink": "/aerospace-medicine-guide/docs/research/a-students-guide-to-grant-writing"
+    "permalink": "/docs/research/a-students-guide-to-grant-writing"
   },
   "next": {
     "title": "Scholarships & Funding",
-    "permalink": "/aerospace-medicine-guide/docs/resources/scholarships-funding"
+    "permalink": "/docs/resources/scholarships-funding"
   }
 }

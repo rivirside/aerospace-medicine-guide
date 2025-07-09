@@ -1,0 +1,26 @@
+{
+  "id": "resources/directory-companies-institutions",
+  "title": "Directory: Companies & Institutions",
+  "description": "Navigating the Landscape: Key Companies and Institutions in Aerospace Medicine",
+  "source": "@site/docs/resources/directory-companies-institutions.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/directory-companies-institutions",
+  "permalink": "/docs/resources/directory-companies-institutions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "directory-companies-institutions",
+    "title": "Directory: Companies & Institutions"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Scholarships & Funding",
+    "permalink": "/docs/resources/scholarships-funding"
+  },
+  "next": {
+    "title": "Recommended Reading",
+    "permalink": "/docs/resources/recommended-reading"
+  }
+}

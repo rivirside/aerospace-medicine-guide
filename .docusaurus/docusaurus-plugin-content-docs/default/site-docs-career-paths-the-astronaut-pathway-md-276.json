@@ -1,27 +1,26 @@
 {
   "id": "career-paths/the-astronaut-pathway",
   "title": "The Astronaut Pathway",
-  "description": "For many medical students, the ultimate dream in aerospace medicine is to become an astronaut. While an incredibly challenging and competitive path, it is a tangible goal for physicians who combine exceptional medical expertise with a passion for exploration, rigorous physical and mental fortitude, and a diverse skill set. This section provides a realistic guide on how physicians can become astronauts, including necessary qualifications, experience, and the nature of the role.",
+  "description": "Dreaming Big: The Astronaut Pathway for Physicians",
   "source": "@site/docs/career-paths/the-astronaut-pathway.md",
   "sourceDirName": "career-paths",
   "slug": "/career-paths/the-astronaut-pathway",
-  "permalink": "/aerospace-medicine-guide/docs/career-paths/the-astronaut-pathway",
+  "permalink": "/docs/career-paths/the-astronaut-pathway",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/career-paths/the-astronaut-pathway.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 4
+    "id": "the-astronaut-pathway",
+    "title": "The Astronaut Pathway"
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
-    "title": "Civilian Careers in Aerospace Medicine",
-    "permalink": "/aerospace-medicine-guide/docs/career-paths/civilian-careers"
+    "title": "Civilian Careers",
+    "permalink": "/docs/career-paths/civilian-careers"
   },
   "next": {
     "title": "Residency & Fellowship Overview",
-    "permalink": "/aerospace-medicine-guide/docs/training-education/residency-fellowship-overview"
+    "permalink": "/docs/training-education/residency-fellowship-overview"
   }
 }

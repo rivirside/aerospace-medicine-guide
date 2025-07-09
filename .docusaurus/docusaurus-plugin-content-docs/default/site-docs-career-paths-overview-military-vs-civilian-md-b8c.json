@@ -1,27 +1,26 @@
 {
   "id": "career-paths/overview-military-vs-civilian",
-  "title": "Overview: Military vs. Civilian Careers",
-  "description": "For medical students considering a career in aerospace medicine, a fundamental decision point often revolves around pursuing a path within the military or civilian sector. Both avenues offer incredibly rewarding experiences and opportunities to contribute to human health in aviation and space environments, but they differ significantly in lifestyle, training, job responsibilities, and career progression. Understanding these distinctions is crucial for making an informed choice that aligns with your personal and professional aspirations.",
+  "title": "Overview: Military vs. Civilian",
+  "description": "Choosing Your Path: Military vs. Civilian Aerospace Medicine",
   "source": "@site/docs/career-paths/overview-military-vs-civilian.md",
   "sourceDirName": "career-paths",
   "slug": "/career-paths/overview-military-vs-civilian",
-  "permalink": "/aerospace-medicine-guide/docs/career-paths/overview-military-vs-civilian",
+  "permalink": "/docs/career-paths/overview-military-vs-civilian",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/career-paths/overview-military-vs-civilian.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "id": "overview-military-vs-civilian",
+    "title": "Overview: Military vs. Civilian"
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "How to Get Involved as a Med Student",
-    "permalink": "/aerospace-medicine-guide/docs/getting-started/how-to-get-involved-as-a-med-student"
+    "permalink": "/docs/getting-started/how-to-get-involved-as-a-med-student"
   },
   "next": {
-    "title": "Military Careers in Aerospace Medicine",
-    "permalink": "/aerospace-medicine-guide/docs/career-paths/military-careers"
+    "title": "Military Careers",
+    "permalink": "/docs/career-paths/military-careers"
   }
 }

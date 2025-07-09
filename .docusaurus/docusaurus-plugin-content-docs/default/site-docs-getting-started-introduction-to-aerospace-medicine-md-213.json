@@ -1,27 +1,22 @@
 {
   "id": "getting-started/introduction-to-aerospace-medicine",
   "title": "Introduction to Aerospace Medicine",
-  "description": "Aerospace medicine is a fascinating and critical specialty that focuses on the health, safety, and performance of individuals in aviation and space environments. It's a field that constantly pushes the boundaries of medical science, adapting to the unique physiological and psychological challenges posed by flight and space travel.",
+  "description": "What is Aerospace Medicine?",
   "source": "@site/docs/getting-started/introduction-to-aerospace-medicine.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/introduction-to-aerospace-medicine",
-  "permalink": "/aerospace-medicine-guide/docs/getting-started/introduction-to-aerospace-medicine",
+  "permalink": "/docs/getting-started/introduction-to-aerospace-medicine",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/getting-started/introduction-to-aerospace-medicine.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "id": "introduction-to-aerospace-medicine",
+    "title": "Introduction to Aerospace Medicine"
   },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Welcome to Aerospace Medicine Hub!",
-    "permalink": "/aerospace-medicine-guide/docs/intro"
-  },
+  "sidebar": "defaultSidebar",
   "next": {
     "title": "Is This Career For Me?",
-    "permalink": "/aerospace-medicine-guide/docs/getting-started/is-this-career-for-me"
+    "permalink": "/docs/getting-started/is-this-career-for-me"
   }
 }

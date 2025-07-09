@@ -1,27 +1,26 @@
 {
   "id": "getting-started/is-this-career-for-me",
   "title": "Is This Career For Me?",
-  "description": "Deciding on a medical specialty is a significant journey, and aerospace medicine, with its unique blend of clinical practice, research, and operational support, is no exception. This section aims to help you assess if a career in aerospace medicine aligns with your interests, skills, and aspirations. Consider the following questions and profiles to gain a clearer understanding.",
+  "description": "Are You a Good Fit for Aerospace Medicine?",
   "source": "@site/docs/getting-started/is-this-career-for-me.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/is-this-career-for-me",
-  "permalink": "/aerospace-medicine-guide/docs/getting-started/is-this-career-for-me",
+  "permalink": "/docs/getting-started/is-this-career-for-me",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/getting-started/is-this-career-for-me.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 2
+    "id": "is-this-career-for-me",
+    "title": "Is This Career For Me?"
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "Introduction to Aerospace Medicine",
-    "permalink": "/aerospace-medicine-guide/docs/getting-started/introduction-to-aerospace-medicine"
+    "permalink": "/docs/getting-started/introduction-to-aerospace-medicine"
   },
   "next": {
     "title": "How to Get Involved as a Med Student",
-    "permalink": "/aerospace-medicine-guide/docs/getting-started/how-to-get-involved-as-a-med-student"
+    "permalink": "/docs/getting-started/how-to-get-involved-as-a-med-student"
   }
 }

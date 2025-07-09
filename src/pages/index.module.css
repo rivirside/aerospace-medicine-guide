@@ -8,67 +8,11 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80'); /* Placeholder image, replace with a space-themed image */
-  background-size: cover;
-  background-position: center;
-  color: #fff; /* White text for contrast */
-  min-height: 60vh; /* Make the hero section taller */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.heroBanner::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
-  z-index: 1;
-}
-
-.heroBanner > .container {
-  position: relative;
-  z-index: 2;
-}
-
-.heroTitle {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: #fff;
-}
-
-.heroSubtitle {
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
-  color: #eee;
-}
-
-.heroDescription {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #ddd;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
-    min-height: 50vh;
-  }
-  .heroTitle {
-    font-size: 2.5rem;
-  }
-  .heroSubtitle {
-    font-size: 1.5rem;
-  }
-  .heroDescription {
-    font-size: 1rem;
   }
 }
 
@@ -76,58 +20,4 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.buttons .button--secondary {
-  background-color: #007bff; /* A nice blue for the button */
-  color: #fff;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  font-size: 1.1rem;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.buttons .button--secondary:hover {
-  background-color: #0056b3;
-}
-
-.quickLinks {
-  padding: 4rem 0;
-  background-color: #f8f9fa; /* Light background for this section */
-}
-
-.quickLinkCard {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 100%; /* Ensure cards have equal height */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.quickLinkCard:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.quickLinkCard a {
-  text-decoration: none;
-  color: inherit; /* Inherit color from parent */
-}
-
-.quickLinkCard h3 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  color: #333;
-}
-
-.quickLinkCard p {
-  font-size: 1rem;
-  color: #666;
 }

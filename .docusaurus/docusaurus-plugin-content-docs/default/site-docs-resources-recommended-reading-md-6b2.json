@@ -1,23 +1,22 @@
 {
   "id": "resources/recommended-reading",
   "title": "Recommended Reading",
-  "description": "To truly immerse yourself in the field of aerospace medicine, a deep dive into its foundational texts, current research, and influential reports is essential. This section provides a curated list of recommended reading materials, ranging from comprehensive textbooks to key journals and seminal papers, that will enhance your understanding and provide valuable context for your journey into this specialized medical discipline.",
+  "description": "Expanding Your Knowledge: Recommended Reading in Aerospace Medicine",
   "source": "@site/docs/resources/recommended-reading.md",
   "sourceDirName": "resources",
   "slug": "/resources/recommended-reading",
-  "permalink": "/aerospace-medicine-guide/docs/resources/recommended-reading",
+  "permalink": "/docs/resources/recommended-reading",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/rivir/aerospace-medicine-guide/tree/main/docs/resources/recommended-reading.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 4
+    "id": "recommended-reading",
+    "title": "Recommended Reading"
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "Directory: Companies & Institutions",
-    "permalink": "/aerospace-medicine-guide/docs/resources/companies-institutions"
+    "permalink": "/docs/resources/directory-companies-institutions"
   }
 }
